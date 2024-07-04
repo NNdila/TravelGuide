@@ -93,6 +93,9 @@ section{
     font-size: 4vmin;
     color: #36454f;
 }
+.row{
+    display: flex;
+}
 
 @media only screen and (max-width:850px){
     .menu-btn{
