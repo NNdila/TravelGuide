@@ -11,16 +11,17 @@
     <nav class="navbar">
         <h1 class="logo">TRAVEL GUIDE</h1>
         <ul class="nav-links">
-            <li><a href="#"></a>Home</li>
+            <li class="active"><a href="#"></a>Home</li>
             <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Cities</li>
             <li><a href="#"></a>Countries</li>
             <li><a href="#"></a>Islands</li>
+            <li><a href="#"></a>Cities</li>
             <li><a href="#"></a>Contact</li>
-            <li><a href="#"></a>SignUp</li>
-            <li><a href="#"></a>SignIn</li>
+            <li class="ctn"><a href="#"></a>SignUp</li>
+            <li class="ctn"><a href="#"></a>SignIn</li>
             
         </ul>
+        <img src="images/menu icon.jpeg" alt="" class="menu-btn">
     </nav>
 
     <header>
@@ -31,5 +32,22 @@
             <a href="#" class="ctn">Learn More</a>
         </div>
     </header>
+
+    <section>
+    
+        <div class="title">
+            <h1>It's Time To Travel!</h1>
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+
+        })
+    </script>
 </body>
 </html>
