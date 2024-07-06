@@ -11,4 +11,64 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url(images/travel.jpg);
+    background-size: cover;
+    
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    background:  #6b422669;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: ivory;
+    font-weight: bold;
+}
+.contact .content p{
+    font-weight: 300;
+    color: ivory;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background:  #6b422669;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #001f3fd4;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background:  #6b422669;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: ivory;
+    font-weight: bold;
+}
+h3{
+    color: ivory;
+    font-weight: bold;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
 }
