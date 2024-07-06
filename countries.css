@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    width: 400px;
+    height: 4px;
+    background: #001f3fd4;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.lines{
+    width: 70px;
+    height: 2px;
+    background: #001f3fd4;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: left;
+    padding: 0px 40px;
+}
+.towns{
+    text-align: left;
+    padding: 0px 40px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+.header-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-image h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+#france {
+    background-image: url('images/France.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#japan {
+    background-image: url('images/Japan.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#kenya {
+    background-image: url('images/Kenya.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#malaysia {
+    background-image: url('images/Malaysia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.travel {
+    background-image: url('images/travel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
