@@ -9,3 +9,53 @@
     background-position: center;
     height: 200px;
 }
+.line{
+    width: 150px;
+    height: 4px;
+    background: #001f3fd4;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.table{
+    width: 100%;
+}
+.table_header h2{
+    display: flex;
+    padding: 20px;
+    background-color: #cc550022;
+    font-weight: bolder;
+    align-items: center;
+}
+.table_section{
+    height: 650px;
+    overflow: auto;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+thead th{
+    position: sticky;
+    top: 0;
+    background-color: #cc550012;
+    color: #8B4513;
+    font-size: 15px;
+}
+th,td{
+    border-bottom: 1px solid #8B4513;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+td img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+
+}
