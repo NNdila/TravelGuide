@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.travel {
+    background-image: url('images/travel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
