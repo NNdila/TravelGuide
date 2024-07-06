@@ -55,28 +55,28 @@ main {
 
 
 #seychelles {
-    background-image: url('images/France.jpg');
+    background-image: url('images/seychelles.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
 }
 
 #dominican {
-    background-image: url('images/Japan.jpg');
+    background-image: url('images/dominicanrepublic.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
 }
 
 #borabora {
-    background-image: url('images/Kenya.jpg');
+    background-image: url('images/borabora.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
 }
 
 #santorini {
-    background-image: url('images/Malaysia.jpg');
+    background-image: url('images/santorini.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
