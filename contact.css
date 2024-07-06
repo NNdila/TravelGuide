@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+     
+    margin: 0; 
+    height: 100vh; 
+}
 .contact{
     position: relative;
     min-height: 100vh;
@@ -11,8 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(images/Travel2.png);
-    background-size: cover;
+    
     
 }
 
@@ -24,7 +28,7 @@
 .contact .content h2{
     font-size: 36px;
     font-weight: 500;
-    color: ivory;
+    color: black;
     font-weight: bolder;
 }
 .contact .content p{
@@ -32,7 +36,6 @@
     color: black;
     font-size: 18px;
     font-weight: bold;
-    background: rgba(255, 255, 240, 0.228);
 }
 .container{
     width: 100%;
@@ -63,15 +66,27 @@
 }
 .contactForm h2{
     font-size: 30px;
-    color: ivory;
+    color: black;
     font-weight: bold;
 }
 h3{
-    color: ivory;
+    color: black;
     font-weight: bolder;
 }
 .contactForm .inputBox{
     position: relative;
     width: 100%;
     margin-top: 10px;
+}
+
+.travel {
+    background-image: url('images/travel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.inputBox{
+    color: ivory;
+    border: black;
 }
