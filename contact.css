@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(images/travel.jpg);
+    background: url(images/Travel2.png);
     background-size: cover;
     
 }
@@ -19,17 +19,20 @@
 .contact .content{
     max-width: 800px;
     text-align: center;
-    background:  #6b422669;
+    
 }
 .contact .content h2{
     font-size: 36px;
     font-weight: 500;
     color: ivory;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .contact .content p{
     font-weight: 300;
-    color: ivory;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(255, 255, 240, 0.228);
 }
 .container{
     width: 100%;
@@ -43,7 +46,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    background:  #6b422669;
+    
 }
 
 .line{
@@ -56,7 +59,7 @@
 .contactForm{
     width: 40%;
     padding: 40px;
-    background:  #6b422669;
+    
 }
 .contactForm h2{
     font-size: 30px;
@@ -65,7 +68,7 @@
 }
 h3{
     color: ivory;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .contactForm .inputBox{
     position: relative;
