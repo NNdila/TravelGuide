@@ -88,3 +88,16 @@ main {
     background-position: center;
     height: 200px;
 }
+.girlies img {
+    border-radius: 50%;
+    width: 128px ;
+    height: 128px ,
+  }
+
+.girlies{
+    background: #6b422669;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
