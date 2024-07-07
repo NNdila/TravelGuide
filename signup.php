@@ -13,7 +13,7 @@
         </div>
     <div class="center">
         <h1>Sign Up</h1>
-        <div class="line"></div>
+        <div class="line"></div>   
         <form method="post">
             <div class="txt_field">
                 <input type="text" required />
