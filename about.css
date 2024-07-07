@@ -85,3 +85,33 @@ footer {
     padding: 1rem;
     background-color: #cc5500bc;
 }
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: ivory;
+    background: #6b422669;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: ivory;
+}
+
+.navbar a:hover{
+    color: #CC5500;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
