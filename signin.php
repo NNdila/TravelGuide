@@ -19,12 +19,12 @@
         <div class="line"></div>
         <form method="post">
           <div class="txt_field">
-            <input type="text" required />
+            <input type="text" name="username" required />
             <span></span>
             <label>Username</label>
           </div>
           <div class="txt_field">
-            <input type="password" required />
+            <input type="password" name="keypassword" required />
             <span></span>
             <label>Password</label>
           </div>
@@ -37,5 +37,24 @@
       <footer>
         <p> 2024 Travel Guide. All rights reserved.</p>
     </footer>
+
+    <?php
+include 'connection.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "create") {
+    $username = $_POST['username'];
+    $keypassword = $_POST['keypassword'];
+    
+
+    $stmt = $conn->prepare("INSERT INTO signin(username, keypassword)
+    VALUES (?, ?)");
+    $stmt->bind_param("ss", $username, $keypassword);
+    $stmt->execute();
+    echo "Sign in successful!";
+    $stmt->close();
+
+    $conn->close();
+}
+?>
 </body>
 </html>

@@ -11,15 +11,15 @@
     <nav class="navbar">
         <h1 style="font-size: 30px;" class="logo">TRAVEL GUIDE</h1>
         <ul class="nav-links">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="countries.html">Countries</a></li>
-            <li><a href="islands.html">Islands</a></li>
-            <li><a href="cities.html">Cities</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="ctn"><a href="signup.html">SignUp</a></li>
-            <li class="ctn"><a href="signin.html">SignIn</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="countries.php">Countries</a></li>
+            <li><a href="islands.php">Islands</a></li>
+            <li><a href="cities.php">Cities</a></li>
+            <li><a href="shop.php">Shop</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li class="ctn"><a href="signup.php">SignUp</a></li>
+            <li class="ctn"><a href="signin.php">SignIn</a></li>
             
         </ul>
         <img src="images/icons8-menu-50.png" alt="" class="menu-btn">
