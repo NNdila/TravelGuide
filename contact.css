@@ -33,9 +33,9 @@ body {
 }
 .contact .content p{
     font-weight: 300;
-    color: black;
+    color: ivory;
     font-size: 18px;
-    font-weight: bold;
+    background: #cc55009d;
 }
 .container{
     width: 100%;
@@ -66,7 +66,7 @@ body {
 }
 .contactForm h2{
     font-size: 30px;
-    color: black;
+    color: #CC5500;
     font-weight: bold;
 }
 h3{

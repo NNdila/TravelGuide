@@ -33,6 +33,17 @@ body , html{
     padding: 20px;
     color: ivory;
     background: #6b422669;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: ivory;
+}
+
+.navbar a:hover{
+    color: #CC5500;
+
 }
 
 .nav-links{
