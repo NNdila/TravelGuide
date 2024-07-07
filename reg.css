@@ -14,7 +14,7 @@
     transform: translate(-50%, -50%);
     max-width: 420px;
     width: 100%;
-    background: ;
+    background: #cc55000d;
     border-radius: 10px;
     box-shadow: brown;
   }
@@ -116,10 +116,24 @@
     background-position: center;
     height: 90px;
 }
+
+.travels {
+    background-image: url('images/travel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90px;
+}
+
 .line{
     width: 150px;
     height: 4px;
     background: #cc5500bc;
     margin: 10px auto;
     border-radius: 5px;
+}
+footer {
+    text-align: center;
+    justify-content: baseline;
+    padding: 1rem;
+    background-color: #cc5500bc;
 }
