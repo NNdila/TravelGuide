@@ -145,18 +145,13 @@ p{
     margin-top: 30px;
 }
 
-.footer{
-    width: 100%;
-    height: 100px;
-    padding: 20px 80px;
-    margin: 0;
-    background: #001f3fc3;
+footer {
     text-align: center;
+    padding: 1rem;
+    background-color: #cc5500bc;
 }
-
-.footer p {
-    margin: 20px auto;
-
+footer p{
+    text-align: center;
 }
 
 @media only screen and (max-width:850px){

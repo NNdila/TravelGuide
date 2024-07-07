@@ -93,3 +93,11 @@ h3{
 span{
     color: black;
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #cc5500bc;
+}
+footer p{
+    text-align: center;
+}

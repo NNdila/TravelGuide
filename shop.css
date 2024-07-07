@@ -62,3 +62,11 @@ td img{
     object-fit: cover;
 
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #cc5500bc;
+}
+footer p{
+    text-align: center;
+}
