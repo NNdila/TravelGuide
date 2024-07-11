@@ -79,7 +79,7 @@ $conn->close();
 <head>
     <title>CRUD Application</title>
     <!-- Link to the external CSS file for styling -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="crud.css">
 </head>
 <body>
 <header>
