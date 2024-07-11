@@ -8,6 +8,22 @@
 </head>
 <body>
 
+<header class="header">
+    <a href="#" class="logo">TRAVEL GUIDE</a>
+
+</header>
+    <nav class= "navbar">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a></li>
+            <a href="countries.php">Countries</a></li>
+            <a href="islands.php">Islands</a></li>
+            <a href="cities.php">Cities</a></li>
+            <a href="shop.php">Shop</a></li>
+            <a href="contact.php">Contact</a></li>
+            
+        </ul>
+    </nav>
+
     <div class="travel">
     <section id="travel" class="header-image">
     </section>
