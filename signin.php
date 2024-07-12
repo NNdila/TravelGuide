@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login - heBrews Coffee Shop</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="crud.css">
 </head>
 <body>
     <div class="main-content">
